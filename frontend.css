@@ -1,0 +1,383 @@
+body{
+    background :rgb(4, 4, 32);
+    color: white;
+   width:80%;
+    
+}
+.header{
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    left: 0;
+    justify-content: space-between;
+    display: flex;
+    align-items:center;
+    z-index: 100;
+    position: sticky;
+}
+.logo{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:oblique;
+}
+.header a:hover{
+    color: grey;
+    
+   
+}
+.navlist a{
+    font-size: 25px;
+    margin-left: 35px;
+    color: white;
+}
+
+.heading1{
+    align-items: center;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    padding: 100px;
+    justify-content: space-evenly;
+    
+    
+}
+.paragraph h1{
+   font-size: 50px;
+   color:aqua;
+    
+}
+.paragraph h2{
+   font-size: 35px;
+   font-family:sans-serif;
+   color:rgb(158, 156, 156);
+}
+
+.image{
+    margin-bottom: 30px;
+    border-radius: 20px;
+    margin-right: 140px;
+
+
+}
+
+
+.heading2{
+    padding: 20px;
+    display: block;
+    text-align: center;
+   
+    
+}
+.about{
+    color: rgb(88, 88, 161);
+     padding: 70px;
+    font-size: 30px;
+    
+    margin-left: 100px; 
+}
+.content{
+    font-size: 25px;
+     
+    
+    margin-left: 140px; 
+    
+    color: bisque;
+}
+#heading3{
+    padding: 30px 0;
+}
+.hobby{
+    text-align: center;
+    margin-left: 200px;
+    font-size: 30px;
+}
+
+.lists{
+    
+    padding-left: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    margin-left: 120px;
+    padding-top: 20px;
+    grid-gap: 60px;
+    margin-top: 100px;
+    
+
+
+}
+.lists div{
+    background:grey;
+    padding: 40px;
+    font-size: 13px;
+    border-right:10px ;
+    transition: background 0.5s , transform 0.5s;
+    color: black;
+}
+.lists div h2{
+    font-size: 30px;
+    text-decoration:solid;
+    
+}
+.lists div p{
+font-size: 20px;
+}
+.lists div:hover{
+background:rgb(197, 196, 196);
+transform: translateY(-10px);
+
+}
+
+
+.heading4{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+   align-items: center; 
+   gap: 2.5rem;
+   background-color: var(--second-bg-color);
+}
+.contact{
+    margin-bottom: 12px;
+    font-size: 20px;
+    padding: 30px;
+}
+.contact h1{
+    margin: 18px;
+font-size: 50px;
+padding: 20px;
+
+
+}
+.container{
+   margin-bottom: 2.8rem;
+   padding: 10px;
+}
+.container li{
+    margin-bottom: 12px;
+}
+.container li a{
+    font-size: 19px;
+    color:cornflowerblue;
+    
+}
+.container li a:hover{
+    transform: translateX(5px);
+    color: rgb(179, 175, 175);
+    
+}
+.contact-icons i{
+    height: 45px;
+    width: 45px;
+    background: var(--main-color);
+    color: var(--text-color);
+    font-size: 22px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-right: 15px;
+
+}
+.contact-icons i:hover{
+    background: var(--text-color-);
+    color: darkcyan;
+}
+.contact-form{
+    position: relative;
+    margin-left: 80px;
+
+}
+.contact-form form input,form textarea{
+   width: 90%;
+   padding: 14px;
+   background:lightgrey;
+   color: black;
+   font-size: 10px;
+   margin-bottom: 10px;
+   border-radius: 8px;
+}
+
+.contact-form .submit{
+    font-size: 16px;
+    width: 160px;
+    text-align: center;
+    color: black;
+}
+.contact-form .submit:hover{
+    cursor: pointer;
+   
+}
+
+
+.end{
+   
+  background: gray ; width: fit-content;
+    padding: 5px;
+   align-items: center;
+    justify-content: space-between;
+}
+.end-text p{
+    font-size: 18px;
+    align-items: center;
+}
+.top i{
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: wheat;
+    color: black;
+}
+@media (max-width:1083px) {
+    .header{
+       
+        padding: 12px 2.5%;
+        transition: .1s;
+
+    }
+    .section{
+        padding: 110px 3% 60px;
+    }
+    .end{
+        padding: 25px 7% ;
+    }
+}
+@media (max-width:1000px) {
+    .heading1{
+       
+        width: 100%;
+        height: 50px;
+        padding: 100px;
+       position: sticky;
+        
+        
+    }
+    .paragraph h1{
+       font-size: 30px;
+       color:aqua;
+        
+    }
+    .paragraph h2{
+       font-size: 25px;
+       font-family:sans-serif;
+       color:rgb(158, 156, 156);
+    }
+    
+    .image{
+        margin-bottom: 20px;
+        border-radius: 10px;
+        margin-left: 20px;
+    width: 100%;
+   
+    
+    }
+    
+}
+@media (max-width:1073px) {
+    .heading2{
+        padding: 20px;
+        display: block;
+        text-align: center;
+       
+        
+    }
+    .about{
+        color: rgb(88, 88, 161);
+         padding: 70px;
+        font-size: 30px;
+        
+        margin-left: 10px; 
+    }
+    .content{
+        font-size: 25px;
+         
+        
+        margin-left: 140px; 
+        
+        color: bisque;
+    }
+    .hobby{
+   
+        
+        font-size: 30px;
+        margin-top: 10px;
+        margin-left: 150px;
+        text-align: center;
+    }#heading3{
+        padding: 30px 0;
+    }
+    
+    
+    .lists{
+        
+        padding-left: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        margin-left: 80px;
+        padding-top: 20px;
+        grid-gap: 60px;
+        margin-top: 100px;
+        
+    
+    
+    }
+    .lists div{
+        background:grey;
+        padding: 40px;
+        font-size: 13px;
+        border-right:10px ;
+        transition: background 0.5s , transform 0.5s;
+        color: black;
+    }
+    .lists div h2{
+        font-size: 30px;
+        text-decoration:solid;
+        
+    }
+    .lists div p{
+    font-size: 20px;
+    }
+    .lists div:hover{
+    background:rgb(197, 196, 196);
+    transform: translateY(-10px);
+    
+    }
+    
+    
+    
+
+}
+@media (max-width:1000px) {
+    .heading4{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width:100px){
+    .end{
+        width:150%;
+      background: gray;
+       
+       align-items: center;
+        justify-content: space-between;
+    }
+    .end-text p{
+        font-size: 18px;
+        align-items: center;
+    }
+    .top i{
+        padding: 10px;
+        border-radius: 8px;
+        font-size: 15px;
+        background-color: wheat;
+        color: black;
+    }
+}
+@media (max-width:1000px) {
+body{
+    
+   width:80%;
+    
+}
+}
+
+
